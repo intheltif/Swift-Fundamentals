@@ -8,8 +8,8 @@ extension Int {
 }
 
 //Optionals and nil-coalescing
-var name: String?
-var person = name ?? "Mysterious Stranger"
+// Semicolons don't matter, but not recommended unless breaking up two statements
+var name: String?; var person = name ?? "Mysterious Stranger";
 print("Hello, \(person)!")
 
 //String concatenation
@@ -22,7 +22,11 @@ print(complete)
 // String interpolation
 print("Interpolate: \(begin) and \(end)")
 
-// Basic operators
+/*
+ Basic operators
+    /* I can even nest 'em! */
+ and a multiline comment
+ */
 let firstInt = 10
 let secInt = 20
 
